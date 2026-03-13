@@ -1,18 +1,13 @@
 {
-  "name": "lab1213",
+  "name": "ci-demo-project",
   "version": "1.0.0",
-  "description": "CI Pipeline demo",
+  "description": "CI pipeline demo project",
   "main": "server.js",
   "scripts": {
-    "test": "jest ",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node test.js"
   },
-  "dependencies":{
-    "express":"^4.18.2"
-
-  },
-  "devDependencies":
-  {
-    "jest":"^29.0.0","supertest":"^6.3.3"
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
