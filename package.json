@@ -4,7 +4,7 @@
   "description": "CI Pipeline demo",
   "main": "server.js",
   "scripts": {
-    "test": "jest --passWithNoTests",
+    "test": "jest ",
     "start": "node server.js"
   },
   "dependencies":{
